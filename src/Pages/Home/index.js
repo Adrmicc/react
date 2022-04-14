@@ -10,8 +10,9 @@ const HomeContainer = styled.div`
 `
 const Card = styled.div`
   padding:10px;
-  background-color: rgb(255, 255, 255,15%);
+  background-color: rgb(40,40,40,60%);
   display: flex;
+  color:rgb(255,255,255,90%); ;
   align-items: center;
   justify-content: center;
 `
@@ -45,8 +46,8 @@ display: grid;
     "a1 a1 a1"
     "a2 a2 a2"
     "a2 a2 a2";
-  background-color: rgb(60, 60, 60, 100%);
-  border: 4px rgb(13, 13, 13) solid;
+    background-color: rgb(40,40,40,60%);
+    border: 4px rgb(13,13,13) solid;
   `
 
 export default function Home() {
