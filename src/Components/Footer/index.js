@@ -8,13 +8,13 @@ const Footer = () => {
             <>&copy; Adrian Michalik</>
         </Copy>
         <Social>
-            <a name="Instagram" href='https://www.instagram.com/' target="_blank" rel="noreferrer">
+            <a name="Instagram" href='https://www.instagram.com/' target="_blank" rel="noopener noreferrer">
             <   Instagram aria-hidden="true"/>
             </a>
-            <a name="Facebook" href='https://www.facebook.com/' target="_blank" rel="noreferrer">
+            <a name="Facebook" href='https://www.facebook.com/' target="_blank" rel="noopener noreferrer">
                 <Facebook aria-hidden="true"/>
             </a>
-            <a name="Twitter" href='https://www.twitter.com/' target="_blank" rel="noreferrer">
+            <a name="Twitter" href='https://www.twitter.com/' target="_blank" rel="noopener noreferrer">
             <Twitter aria-hidden="true"/>
             </a>
         </Social>

@@ -20,25 +20,9 @@ const Card = styled.div`
     min-width: 245px;
   }
 `;
-export const Element1 = styled(Card)`
-  grid-area: a1;
+export const Element = styled(Card)`
+  grid-area: ${props => props.gridArea};
 `;
-export const Element2 = styled(Card)`
-  grid-area: a2;
-`;
-export const Element3 = styled(Card)`
-  grid-area: a3;
-`;
-export const Element4 = styled(Card)`
-  grid-area: a4;
-`;
-export const Element5 = styled(Card)`
-  grid-area: a5;
-`;
-export const Element6 = styled(Card)`
-  grid-area: a6;
-`;
-
 export const GridContainer = styled.div`
   padding: 15px;
   height: 70%;

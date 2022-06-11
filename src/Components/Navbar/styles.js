@@ -31,8 +31,8 @@ transition: background-color ease-in 0.2s ;
 background-color: rgb(255, 255, 255,6%);
 
 }
-@media (max-width: 532px) {
-font-size: 0.7rem;
+@media (max-width: 650px) {
+font-size: 0.6rem;
 }
 `
 
