@@ -101,6 +101,7 @@ const Input = styled.input`
   max-width: 280px;
   height: 1.6rem;
   margin-top: 6px;
+  transition-duration: .2s;
   @media (max-width: 880px) {
     max-width: 180px;
   }
@@ -119,6 +120,22 @@ const Button = styled.button`
   margin-bottom: 7%;
   height: 1.6rem;
   max-width: 280px;
+  background-color: #2c4882;
+  border: 1px solid transparent;
+  border-radius: .75rem;
+  color: #FFFFFF;
+  cursor: pointer;
+  text-align: center;
+  transition-duration: .2s;
+
+
+  &:focus{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  }
+  &:hover{
+    background-color: #374151;
+  }
   @media (max-width: 880px) {
     max-width: 180px;
   }
